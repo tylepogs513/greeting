@@ -12,9 +12,9 @@ using System.Media;
 
 namespace greeting
 {
-    public partial class Form1 : Form
+    public partial class Greeting : Form
     {
-        public Form1()
+        public Greeting()
         {
             InitializeComponent();
         }
@@ -33,6 +33,7 @@ namespace greeting
             Pen whitePen = new Pen(Color.White, 1);
             SoundPlayer dingPlayer = new SoundPlayer(Properties.Resources.ding);
             SoundPlayer shrekPlayer = new SoundPlayer(Properties.Resources.shrek);
+            SoundPlayer nightPlayer = new SoundPlayer(Properties.Resources.night);
             Font drawFont = new Font("Arial", 10, FontStyle.Bold);
             Font drawFont1 = new Font("Oswald", 30, FontStyle.Bold);
             button1.Visible = false;
@@ -90,30 +91,31 @@ namespace greeting
 
             g.DrawString("Taurus", drawFont1, blueBrush, 350, 100);
             Thread.Sleep(2000);
+            nightPlayer.Play();
             g.DrawString("Taurus (Latin for 'the Bull') is one of the", drawFont, redBrush, 50, 320);
-            Thread.Sleep(2250);
+            Thread.Sleep(2000);
             g.DrawString("constellations of the zodiac, which means it", drawFont, redBrush, 50, 340);
-            Thread.Sleep(2250);
+            Thread.Sleep(2000);
             g.DrawString("is crossed by the plane of the ecliptic.", drawFont, redBrush, 50, 360);
-            Thread.Sleep(2250);
+            Thread.Sleep(2000);
             g.DrawString("Taurus is a large and prominent constellation", drawFont, redBrush, 50, 380);
-            Thread.Sleep(2250);
+            Thread.Sleep(2000);
             g.DrawString("in the northern hemisphere's winter sky. It is", drawFont, redBrush, 50, 400);
-            Thread.Sleep(2250);
+            Thread.Sleep(2000);
             g.DrawString("one of the oldest constellations, dating back", drawFont, redBrush, 50, 420);
-            Thread.Sleep(2250);
+            Thread.Sleep(2000);
             g.DrawString("to at least the Early Bronze Age when it", drawFont, redBrush, 50, 440);
-            Thread.Sleep(2250);
+            Thread.Sleep(2000);
             g.DrawString("marked the location of the Sun during the ", drawFont, redBrush, 50, 460);
-            Thread.Sleep(2250);
+            Thread.Sleep(2000);
             g.DrawString("spring equinox. Its importance to the", drawFont, redBrush, 50, 480);
-            Thread.Sleep(2250);
+            Thread.Sleep(2000);
             g.DrawString("agricultural calendar influenced various bull", drawFont, redBrush, 50, 500);
-            Thread.Sleep(2250);
+            Thread.Sleep(2000);
             g.DrawString("figures in the mythologies of Ancient Sumer,", drawFont, redBrush, 50, 520);
-            Thread.Sleep(2250);
+            Thread.Sleep(2000);
             g.DrawString("Akkad, Assyria, Babylon, Egypt, Greece, and Rome.", drawFont, redBrush, 50, 540);
-            Thread.Sleep(2250);
+            Thread.Sleep(2000);
             
             g.Clear(Color.Black);
             button1.Visible = true;
