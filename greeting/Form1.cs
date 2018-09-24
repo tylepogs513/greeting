@@ -90,6 +90,11 @@ namespace greeting
             g.DrawLine(whitePen, 446, 381, 452, 406);
             Thread.Sleep(1500);
 
+            /*label20.Visible = false;
+            label27.Visible = false;
+            label28.Visible = false;
+            label29.Visible = false;*/
+
             g.DrawString("Taurus", drawFont1, blueBrush, 350, 100);
             Thread.Sleep(2000);
             nightPlayer.Play();

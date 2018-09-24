@@ -49,7 +49,6 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -71,6 +70,7 @@
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -285,16 +285,6 @@
             this.label19.TabIndex = 19;
             this.label19.Text = "✦";
             // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(50, 309);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(19, 13);
-            this.label20.TabIndex = 20;
-            this.label20.Text = "✦";
-            // 
             // label21
             // 
             this.label21.AutoSize = true;
@@ -505,6 +495,16 @@
             this.label41.TabIndex = 41;
             this.label41.Text = "✦";
             // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.ForeColor = System.Drawing.Color.White;
+            this.label20.Location = new System.Drawing.Point(50, 309);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(19, 13);
+            this.label20.TabIndex = 20;
+            this.label20.Text = "✦";
+            // 
             // Greeting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -585,7 +585,6 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
@@ -607,6 +606,7 @@
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label20;
     }
 }
 
